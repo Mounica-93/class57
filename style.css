@@ -1,0 +1,75 @@
+body{
+    margin=0;
+    padding-top: 100px;
+    text-align: center;
+}
+.img{
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: cadetblue;
+    padding: 3px;
+    width:250px;
+    height:250px;
+    margin-top: 20px;
+}
+h1{
+    font-family:sans-serif;
+    color: crimson;
+}
+h2{
+    font-family: monospace;
+    color:darkcyan;
+}
+.Tim{
+    font-family: fantasy;
+    color:coral;
+}
+h3{
+    font-family: serif;
+    color:cornflowerblue;
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    background:linear-gradient(#fcba03,#ed91d3);
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:600px;
+    
+}
+#bio{
+    padding-top:500px;
+}
+.line{
+    height:6px;
+    width:50px;
+    margin-left: 650px;
+    background-color: crimson;
+    text-align: center;
+    
+}
+.menu{
+    list-style:none;
+    font-family:fantasy;
+    position:absolute;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+    z-index:10;
+}
+.links{
+    float:left;
+    padding-left:5px;
+    font-family:sans-serif;
+    color:chocolate;
+    font-weight:bold;
+}
+.links:hover{
+    background-color: burlywood;
+}
+#Tim{
+   font-family: 'Fascinate', cursive;
+}
